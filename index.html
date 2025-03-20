@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="assets/style.css" />
+        <script defer src="assets/script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="mobile-menu">
+                <button class="menu-toggle">☰</button>
+            </div>
+
+            <div class="navbar">
+                <a href="index.html">Home</a>
+
+                <div class="dropdown">
+                  <button class="dropbtn">Portfolio 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="pages/uiux.html">UI/UX</a>
+                    <a href="pages/misc.html">Miscellaneous</a>
+
+                    <!-- To be added later
+                    <a href="">Illustration</a>
+                    <a href="">Photography</a> -->
+
+                  </div>
+                </div> 
+              </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="introduction">
+                    <h1>Hi! I'm Ayse,</h1>
+                    <p>a passionate UX/UI design student at Drexel University striving to create user-friendly and inclusive digital experiences. 
+                    Explore my journey and the projects that reflect my dedication to thoughtful design.</p>
+                </div>
+
+                <div class="profile_picture"><img src="assets/images/profile.jpeg" alt="Profile Picture"></div>
+
+                <div class="offer">
+                    <h2>What I offer</h2>
+                    <p><b>UX/UI Design:</b> Expertise in wireframing, prototyping, and creating intuitive interfaces.</p>
+
+                    <p><b>Front-End Development:</b> Skilled in HTML, CSS, and JavaScript for building responsive designs.</p>
+                        
+                    <p><b>Research & Analysis:</b> Strong foundation in user research, data-driven design decisions, and iterative testing.</p>
+                        
+                    <p><b>Creative Vision:</b> Passion for illustration, photography, and storytelling that enhances my design approach.</p>
+                </div>
+
+                <div class="contact">
+                    <h2>Email</h2>
+                    <p><a href="mailto:aet76@drexel.edu">aet76@drexel.edu</a></p>
+
+                    <h2>Social Media</h2>
+                    <p><a href="https://www.linkedin.com/in/ayse-eda-turcan-066a8a219/">LinkedIn</a></p>
+                    <p><a href="https://github.com/ayseeda-turcan">GitHub</a></p>
+                </div>
+            </div>
+
+            <div class="contact_form">
+                <h2>Contact Form</h2>
+                <p>You can also fill out this form below, and I’ll get back to you as soon as possible!</p>
+            </div>
+
+            <form action="https://formspree.io/f/mrbeerve" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+
+        </main>
+    
+        <footer>
+            <p>© 2025 Ayse Eda Turcan</p>
+        </footer>
+        
+    </body>
+</html>
