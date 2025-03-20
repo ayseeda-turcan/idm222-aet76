@@ -367,7 +367,7 @@ a:link {
 }
   
 a:visited {
-    color: pink;
+    color: #90b3b3;
     background-color: transparent;
     text-decoration: none;
 }
