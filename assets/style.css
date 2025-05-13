@@ -342,15 +342,18 @@ footer {
 .flex_container {
     display: flex;
     flex-direction: row;
-    padding: 5rem 10rem;
-
-    img {
-        width: 50%;
-        height: auto;
-        padding-right: 2rem;
-    }
+    padding: 3rem 10rem;
 }
   
+.flex_container_img {
+    img {
+        width: 40vw;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 2rem;
+    }
+}
+
 @media (max-width: 800px) {
     .flex_container {
         flex-direction: column;
